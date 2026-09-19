@@ -1,17 +1,41 @@
 {
-  "_comment": "Lead candidate cards. `party` is a template code from data/parties.json and supplies the card colour, so nothing here repeats a hex value. `role` is the line under the name; `bio` the short paragraph. Order is the order they appear.",
+  "_comment": "Lead candidate cards. `party` is a template code from data/parties.json and supplies the card colour, so nothing here repeats a hex value. `role` is the line under the name; `bio` the short paragraph. Order is the order they appear. Two parties are standing a duo, both named on one card.",
   "items": [
     {
-      "name": "TODO Candidate Name",
-      "party": "TODO CODE",
-      "role": "TODO Incumbent head of government",
-      "bio": "TODO One or two sentences: current office, how they were selected, why they matter to this race."
+      "name": "Stefan Evers",
+      "party": "CDU",
+      "role": "Senator for Finance",
+      "bio": "Finance senator in the Wegner senate and previously the Berlin CDU's general secretary, leading the list for a party that has fallen about eight points since winning in 2023."
     },
     {
-      "name": "TODO Candidate Name",
-      "party": "TODO CODE",
+      "name": "Elif Eralp",
+      "party": "LINKE",
       "role": null,
-      "bio": "TODO One or two sentences."
+      "bio": "Lead candidate for the party that has gained most since 2023, roughly doubling its share and leading or tying the lead in most polls published since July."
+    },
+    {
+      "name": "Kristin Brinker",
+      "party": "AFD",
+      "role": null,
+      "bio": "Berlin AfD state chair and parliamentary group leader, standing again after the party's 9.1% in 2023."
+    },
+    {
+      "name": "Werner Graf & Bettina Jarasch",
+      "party": "GRUENE",
+      "role": null,
+      "bio": "A duo: Graf co-chairs the parliamentary group, Jarasch was the Greens' lead candidate in 2021 and 2023 and a former senator for the environment and mobility."
+    },
+    {
+      "name": "Steffen Krach",
+      "party": "SPD",
+      "role": null,
+      "bio": "Lead candidate for the SPD, defending the junior half of the governing coalition with the party polling at its lowest level in Berlin since reunification."
+    },
+    {
+      "name": "Alexander King & Michael Lüders",
+      "party": "BSW",
+      "role": null,
+      "bio": "A duo leading the Sahra Wagenknecht Alliance's first Berlin campaign, with the party polling either side of the 5% threshold."
     }
   ]
 }

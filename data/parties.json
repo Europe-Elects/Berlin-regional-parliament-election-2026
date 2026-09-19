@@ -1,0 +1,414 @@
+{
+  "updated": "2026-09-19T17:19:53.535Z",
+  "source": {
+    "repo": "Europe-Elects/PartiesData",
+    "ref": "main",
+    "continent": "Europe",
+    "country": "Germany",
+    "electionType": "Berlin regional parliament",
+    "localPath": null,
+    "url": "https://github.com/Europe-Elects/PartiesData/blob/main/Europe/partiesdata.yaml",
+    "resolved": true,
+    "electionData": {
+      "last_election_date": "2023",
+      "next_election_date": "20 September 2026"
+    }
+  },
+  "baselineSource": "partiesdata",
+  "order": [
+    "CDU",
+    "SPD",
+    "GRUENE",
+    "LINKE",
+    "AFD",
+    "FDP",
+    "TSP",
+    "PARTEI",
+    "VOLT",
+    "URBANE",
+    "DKP",
+    "ODP",
+    "HEIMAT",
+    "BERGPARTEI",
+    "SGP",
+    "BSW",
+    "PDF",
+    "BASIS"
+  ],
+  "others": {
+    "code": "OTHERS",
+    "name": "Others",
+    "color": "#c7c4b8",
+    "dark": true
+  },
+  "parties": {
+    "CDU": {
+      "code": "CDU",
+      "key": "CDU",
+      "name": "CDU (EPP)",
+      "full": "Christlich Demokratische Union Deutschlands",
+      "family": "Christian Democrats",
+      "epGroup": "EPP",
+      "epGroupBase": "EPP",
+      "euro": "EPP (EPP)",
+      "color": "#3399FF",
+      "dark": false,
+      "baseline": 28.2,
+      "gov": "Govt.",
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "cdu",
+        "cdu/csu"
+      ]
+    },
+    "SPD": {
+      "code": "SPD",
+      "key": "SPD",
+      "name": "SPD (S&D)",
+      "full": "Sozialdemokratische Partei Deutschlands",
+      "family": "Social Democrats",
+      "epGroup": "S&D",
+      "epGroupBase": "S&D",
+      "euro": "PES (S&D)",
+      "color": "#FF0000",
+      "dark": false,
+      "baseline": 18.4,
+      "gov": "Govt.",
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "spd"
+      ]
+    },
+    "AFD": {
+      "code": "AFD",
+      "key": "AfD",
+      "name": "AfD (ESN)",
+      "full": "Alternative für Deutschland",
+      "family": "Far-right / populist",
+      "epGroup": "ESN",
+      "epGroupBase": "ESN",
+      "euro": "ESN (ESN)",
+      "color": "#70463A",
+      "dark": false,
+      "baseline": 9.1,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "afd"
+      ]
+    },
+    "FDP": {
+      "code": "FDP",
+      "key": "FDP",
+      "name": "FDP (RE)",
+      "full": "Freie Demokratische Partei",
+      "family": "Liberal",
+      "epGroup": "RE",
+      "epGroupBase": "RE",
+      "euro": "ALDE (RE)",
+      "color": "#FFD700",
+      "dark": true,
+      "baseline": 4.6,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "fdp"
+      ]
+    },
+    "GRUENE": {
+      "code": "GRUENE",
+      "key": "GRÜNE",
+      "name": "Grüne (Greens/EFA)",
+      "full": "Bündnis 90/Die Grünen",
+      "family": "Greens",
+      "epGroup": "Greens/EFA",
+      "epGroupBase": "Greens/EFA",
+      "euro": "EGP (Greens/EFA)",
+      "color": "#009900",
+      "dark": false,
+      "baseline": 18.4,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "gruene",
+        "grune",
+        "b90/gruene",
+        "b90/grune",
+        "buendnis 90/die gruenen",
+        "bundnis 90/die grunen"
+      ]
+    },
+    "LINKE": {
+      "code": "LINKE",
+      "key": "LINKE",
+      "name": "Linke (LEFT)",
+      "full": "Die Linke",
+      "family": "Left-wing",
+      "epGroup": "LEFT",
+      "epGroupBase": "LEFT",
+      "euro": "EL (LEFT)",
+      "color": "#990000",
+      "dark": false,
+      "baseline": 12.2,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "linke",
+        "die linke"
+      ]
+    },
+    "VOLT": {
+      "code": "VOLT",
+      "key": "Volt",
+      "name": "Volt",
+      "full": "Volt Deutschland",
+      "family": "Eurofederalist",
+      "epGroup": "Greens/EFA",
+      "epGroupBase": "Greens/EFA",
+      "euro": "Volt (Greens/EFA)",
+      "color": "#502379",
+      "dark": false,
+      "baseline": 0.9,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "volt",
+        "volt deutschland"
+      ]
+    },
+    "BASIS": {
+      "code": "BASIS",
+      "key": "Basis",
+      "name": "dieBasis",
+      "full": "Basisdemokratische Partei Deutschland",
+      "family": "Independent",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#b9b6ab",
+      "dark": true,
+      "baseline": 0.5,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "basis",
+        "diebasis",
+        "die basis"
+      ]
+    },
+    "TSP": {
+      "code": "TSP",
+      "key": "Tierschutz",
+      "name": "Tierschutzpartei",
+      "full": "Partei Mensch Umwelt Tierschutz",
+      "family": "Animal rights",
+      "epGroup": "LEFT",
+      "epGroupBase": "LEFT",
+      "euro": "Animal Politics (LEFT)",
+      "color": "#009076",
+      "dark": false,
+      "baseline": 2.4,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "tierschutz",
+        "tsp",
+        "tierschutzpartei",
+        "mensch umwelt tierschutz",
+        "mut"
+      ]
+    },
+    "PARTEI": {
+      "code": "PARTEI",
+      "key": "PARTEI",
+      "name": "Die PARTEI",
+      "full": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "family": "Satirical",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#7a6c5d",
+      "dark": false,
+      "baseline": 1.4,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "partei",
+        "die partei"
+      ]
+    },
+    "BSW": {
+      "code": "BSW",
+      "key": "BSW",
+      "name": "BSW (NI)",
+      "full": "Bündnis Sahra Wagenknecht",
+      "family": "Left-conservative",
+      "epGroup": "NI",
+      "epGroupBase": "NI",
+      "euro": "None (NI)",
+      "color": "#9aa0a6",
+      "dark": true,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": true,
+      "via": "source",
+      "aliases": [
+        "bsw",
+        "buendnis sahra wagenknecht",
+        "bundnis sahra wagenknecht"
+      ]
+    },
+    "URBANE": {
+      "code": "URBANE",
+      "key": "Die Urbane",
+      "name": "Die Urbane",
+      "full": "Die Urbane. Eine HipHop Partei",
+      "family": "Left-wing",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#d1495b",
+      "dark": false,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": false,
+      "via": "config",
+      "aliases": [
+        "die urbane",
+        "urbane",
+        "die urbane. eine hiphop partei"
+      ]
+    },
+    "DKP": {
+      "code": "DKP",
+      "key": "DKP",
+      "name": "DKP",
+      "full": "Deutsche Kommunistische Partei",
+      "family": "Far-left",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#7c0000",
+      "dark": false,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": false,
+      "via": "config",
+      "aliases": [
+        "dkp"
+      ]
+    },
+    "ODP": {
+      "code": "ODP",
+      "key": "ÖDP",
+      "name": "ÖDP",
+      "full": "Ökologisch-Demokratische Partei",
+      "family": "Greens",
+      "epGroup": "Greens/EFA",
+      "epGroupBase": "Greens/EFA",
+      "euro": "EGP (Greens/EFA)",
+      "color": "#f0a30a",
+      "dark": true,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": false,
+      "via": "config",
+      "aliases": [
+        "oedp",
+        "odp"
+      ]
+    },
+    "HEIMAT": {
+      "code": "HEIMAT",
+      "key": "HEIMAT",
+      "name": "Die Heimat",
+      "full": "Die Heimat, formerly the NPD",
+      "family": "Far-right",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#4a3728",
+      "dark": false,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": false,
+      "via": "config",
+      "aliases": [
+        "heimat",
+        "die heimat",
+        "npd"
+      ]
+    },
+    "BERGPARTEI": {
+      "code": "BERGPARTEI",
+      "key": "Bergpartei",
+      "name": "Bergpartei",
+      "full": "Bergpartei, die ÜberPartei",
+      "family": "Satirical",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#5b8c5a",
+      "dark": false,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": false,
+      "via": "config",
+      "aliases": [
+        "bergpartei",
+        "die ueberpartei",
+        "die uberpartei"
+      ]
+    },
+    "SGP": {
+      "code": "SGP",
+      "key": "SGP",
+      "name": "SGP",
+      "full": "Sozialistische Gleichheitspartei",
+      "family": "Far-left",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#b03030",
+      "dark": false,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": false,
+      "via": "config",
+      "aliases": [
+        "sgp",
+        "sozialistische gleichheitspartei"
+      ]
+    },
+    "PDF": {
+      "code": "PDF",
+      "key": "PdF",
+      "name": "PdF",
+      "full": "Partei des Fortschritts",
+      "family": "Centrist",
+      "epGroup": "*",
+      "epGroupBase": "*",
+      "euro": "None (*)",
+      "color": "#00a3a3",
+      "dark": false,
+      "baseline": null,
+      "gov": null,
+      "inPrimary": false,
+      "via": "config",
+      "aliases": [
+        "pdf",
+        "partei des fortschritts"
+      ]
+    }
+  }
+}

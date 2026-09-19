@@ -1,7 +1,15 @@
 {
-  "_comment": "The previous election's certified result, shown in its own accordion. Also the source of the previous-result column in the results table when parties.baselineSource is \"content\" — which is what you want where the only PartiesData entry for this country is the national one and its last_results would be the wrong baseline for a regional contest. `seats` may be null.",
+  "_comment": "The 12 February 2023 repeat-election result, shown in its own accordion. parties.baselineSource is \"partiesdata\" — the Berlin PartiesData entry carries these same shares as last_results — so this file is the accordion only, and it adds the seat counts PartiesData does not hold. Parties below the threshold won no seats, hence null. The SPD and the Greens both took 18.4%: the SPD finished second by 53 votes.",
   "rows": [
-    { "party": "TODO CODE", "votePercent": 0, "seats": null },
-    { "party": "TODO CODE", "votePercent": 0, "seats": null }
+    { "party": "CDU", "votePercent": 28.2, "seats": 52 },
+    { "party": "SPD", "votePercent": 18.4, "seats": 34 },
+    { "party": "GRUENE", "votePercent": 18.4, "seats": 34 },
+    { "party": "LINKE", "votePercent": 12.2, "seats": 22 },
+    { "party": "AFD", "votePercent": 9.1, "seats": 17 },
+    { "party": "FDP", "votePercent": 4.6, "seats": null },
+    { "party": "TSP", "votePercent": 2.4, "seats": null },
+    { "party": "PARTEI", "votePercent": 1.4, "seats": null },
+    { "party": "VOLT", "votePercent": 0.9, "seats": null },
+    { "party": "BASIS", "votePercent": 0.5, "seats": null }
   ]
 }
