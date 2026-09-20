@@ -1,0 +1,177 @@
+{
+  "updated": "2026-09-20T13:25:29.114Z",
+  "validVotes": 0,
+  "counting": false,
+  "parties": [
+    {
+      "code": "CDU",
+      "label": "CDU (EPP)",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "SPD",
+      "label": "SPD (S&D)",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "GRUENE",
+      "label": "Grüne (Greens/EFA)",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "LINKE",
+      "label": "Linke (LEFT)",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "AFD",
+      "label": "AfD (ESN)",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "FDP",
+      "label": "FDP (RE)",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "TSP",
+      "label": "Tierschutzpartei",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "PARTEI",
+      "label": "Die PARTEI",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "VOLT",
+      "label": "Volt",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "URBANE",
+      "label": "Die Urbane",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "DKP",
+      "label": "DKP",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "ODP",
+      "label": "ÖDP",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "HEIMAT",
+      "label": "Die Heimat",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "BERGPARTEI",
+      "label": "Bergpartei",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "SGP",
+      "label": "SGP",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "BSW",
+      "label": "BSW (NI)",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    },
+    {
+      "code": "PDF",
+      "label": "PdF",
+      "votes": null,
+      "share": null,
+      "seats": null,
+      "changeV": null,
+      "changeS": null,
+      "reported": false
+    }
+  ]
+}
