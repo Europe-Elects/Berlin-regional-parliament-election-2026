@@ -63,7 +63,8 @@
   },
 
   "sheet": {
-    "id": "TODO paste the Sheet ID out of its URL",
+    "id": "1Qb00RSkgVTw_KO76Sij55MIgnT3SYGbWXJdYge1Z_2A",
+    "_idComment": "A separate Sheet from the Mecklenburg-Vorpommern one on purpose: shared tab names would collide, and an analyst typing Berlin figures would trigger a Mecklenburg-Vorpommern rebuild. Must be shared as Anyone with the link → Viewer. Both the Action and the browser read this through the gviz CSV endpoint with no credentials at all, so a restricted Sheet returns HTTP 401 to everything — the pipeline, the page's fallback read, and Datawrapper's linked dataset alike.",
     "_tabsComment": "Tabs are referenced by NAME, never by gid. A gid is regenerated every time a Sheet is duplicated; the name survives. These names are the ones that carry over from the Saxony-Anhalt Sheet — check them against the tab strip after copying.",
     "tabs": {
       "exitVotes": "exit",
@@ -322,10 +323,10 @@
       "sub": "A mix of exit poll and counted result, published and revised by both institutes through election night",
       "note": "Both institutes publish a first projection at about 18:15 CEST on 20 September 2026 and revise it as counting proceeds. These charts stay empty until then.",
       "charts": [
-        { "label": "Infratest dimap · popular vote", "id": "TODO01", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true },
-        { "label": "Infratest dimap · seats", "id": "TODO02", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true },
-        { "label": "Forschungsgruppe Wahlen · popular vote", "id": "TODO03", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true },
-        { "label": "Forschungsgruppe Wahlen · seats", "id": "TODO04", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true }
+        { "label": "Infratest dimap · popular vote", "id": "vB4s3", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true },
+        { "label": "Infratest dimap · seats", "id": "oCUxn", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true },
+        { "label": "Forschungsgruppe Wahlen · popular vote", "id": "Oq6My", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true },
+        { "label": "Forschungsgruppe Wahlen · seats", "id": "rGTbc", "version": 1, "height": 397, "ariaLabel": "Line chart", "live": true }
       ]
     },
 
@@ -350,7 +351,7 @@
       "heading": "Berlin 2026 · turnout by the hour",
       "sub": "Cumulative turnout reported through election day, local time",
       "note": "How turnout built through the day, this election against previous ones. Turnout was 62.9% at the February 2023 repeat election, well below the annulled 2021 vote, which was held alongside the federal election.",
-      "chart": { "label": "Turnout", "id": "TODO05", "version": 1, "height": 391, "ariaLabel": "Line chart", "live": true }
+      "chart": { "label": "Turnout", "id": "MdFN7", "version": 1, "height": 391, "ariaLabel": "Line chart", "live": true }
     },
 
     "previousResult": {
@@ -382,8 +383,8 @@
       "sub": "Combined seat share of viable coalitions, per the latest Infratest dimap and Forschungsgruppe Wahlen exit poll",
       "note": "Coalition arithmetic appears once the first exit poll is published at 18:00 CEST on 20 September 2026. 66 of 130 seats are a majority, more where overhang and levelling seats enlarge the chamber — and with four parties polling between 12% and 23%, no two-party combination is clearly available.",
       "charts": [
-        { "label": "Infratest dimap", "id": "TODO06", "version": 1, "height": 207, "ariaLabel": "Stacked Bars", "live": true },
-        { "label": "Forschungsgruppe Wahlen", "id": "TODO07", "version": 1, "height": 207, "ariaLabel": "Stacked Bars", "live": true }
+        { "label": "Infratest dimap", "id": "ssiVR", "version": 1, "height": 207, "ariaLabel": "Stacked Bars", "live": true },
+        { "label": "Forschungsgruppe Wahlen", "id": "FoEam", "version": 1, "height": 207, "ariaLabel": "Stacked Bars", "live": true }
       ]
     },
 
@@ -408,8 +409,8 @@
       "heading": "Berlin · second-vote share and seats by election, 1990–2026",
       "sub": "First all-Berlin election after reunification onward · the 2026 column is not a certified result until counting finishes",
       "charts": [
-        { "label": "Popular vote", "id": "TODO08", "version": 1, "height": 268, "ariaLabel": "Stacked Bars", "live": false },
-        { "label": "Seats", "id": "TODO09", "version": 1, "height": 251, "ariaLabel": "Stacked Bars", "live": false }
+        { "label": "Popular vote", "id": "jnmyQ", "version": 1, "height": 268, "ariaLabel": "Stacked Bars", "live": false },
+        { "label": "Seats", "id": "v3NmY", "version": 1, "height": 251, "ariaLabel": "Stacked Bars", "live": false }
       ]
     },
 
