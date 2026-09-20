@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T13:25:28.623Z",
-  "published": false,
+  "updated": "2026-09-20T16:18:04.794Z",
+  "published": true,
   "header": [
     "",
     "CDU",
@@ -13,12 +13,12 @@
   "rows": [
     [
       "Forschungsgruppe Wahlen for ZDF",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "28",
+      "19",
+      "37",
+      "17",
+      "22",
+      "7"
     ],
     [
       "Infratest dimap for ARD",
