@@ -352,7 +352,11 @@
       "heading": "Berlin 2026 · turnout by the hour",
       "sub": "Cumulative turnout reported through election day, local time",
       "note": "How turnout built through the day, this election against previous ones. Turnout was 62.9% at the February 2023 repeat election, well below the annulled 2021 vote, which was held alongside the federal election.",
-      "chart": { "label": "Turnout", "id": "MdFN7", "version": 1, "height": 391, "ariaLabel": "Line chart", "live": true }
+      "empty": "Turnout figures for this election are not in this chart yet. It reappears on its own once the chart is reading this election’s sheet.",
+      "_emptyComment": "Shown in place of the embed while the guard below fails. The check repeats on every poll, so no edit here is needed once the chart is repointed.",
+      "chart": { "label": "Turnout", "id": "MdFN7", "version": 1, "height": 391, "ariaLabel": "Line chart", "live": true,
+        "requireRows": { "2023 (incl. postal votes)": "62.9%" },
+        "_requireRowsComment": "A copied chart renders happily with the previous election’s figures in it and nothing outside the iframe says which dataset it holds. This asserts that the row for the last Berlin election ends on its real turnout. Both Sheets here were copied from the Saxony-Anhalt one, whose series has no 2023 row at all, so a chart still pointing there fails this and the embed is withheld. Verified against the chart’s current version, not the pinned one, because repointing and republishing is what bumps it." }
     },
 
     "previousResult": {
